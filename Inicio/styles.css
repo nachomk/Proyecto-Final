@@ -2,7 +2,7 @@
 * {
    box-sizing: border-box;
    margin: 0;
-   padding: 0;
+   /* padding: 0; */
    font-family: 'Nunito', sans-serif;
    font-size: 20px;
 }
@@ -64,15 +64,20 @@ nav ul {
     height: 100%;
 }
 
+.title-header {
+    position: relative;
+    right: 140px;
+}
+
 /* MAPAS */
 .container {
     display: flex;
     place-content: center center;
 }
 
-.map-container {
+/* .map-container {
     width: 50%;
-}
+} */
 
 .map-container path {
     fill: #F9B452;
@@ -81,4 +86,13 @@ nav ul {
 
 .map-container :hover {
     fill: #800000;
+}
+
+/* BODY */
+.provincia {
+    display: flex;
+    justify-content: center; /*ALINEA LAS ETIQUETAS SOBRE LA MISMA LINEA*/
+}
+.provincia h2 {
+    font-size: 22px;
 }
