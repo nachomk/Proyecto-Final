@@ -60,19 +60,22 @@ nav ul {
     color: #576574;
     text-decoration: none; /*SACA EL SUBRAYADO A LOS LINKS*/
 }
+
 .nav-links img {
     height: 100%;
 }
 
 .title-header {
-    position: relative;
-    right: 140px;
+    display: flex;
+    justify-content: start;
 }
 
 /* MAPAS */
 .container {
     display: flex;
+    position: relative;
     place-content: center center;
+    top: 20px;
 }
 
 /* .map-container {
@@ -94,5 +97,7 @@ nav ul {
     justify-content: center; /*ALINEA LAS ETIQUETAS SOBRE LA MISMA LINEA*/
 }
 .provincia h2 {
-    font-size: 22px;
+    position: relative;
+    top: 10px;
+    font-size: 35px;
 }

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@700&family=Nunito:ital,wght@0,400;1,600&display=swap');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   /* padding: 0; */
+   font-family: 'Nunito', sans-serif;
+   font-size: 20px;
+}
+
+body {
+    background-color: #F8EFBA;
+}
+
+h1 {
+    font-size: 35px;
+}
+/* LOGO */
+.header {
+    background-color: #9AECDB;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 50px 10%;
+}
+header .logo img {
+    height: 75px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2); /*ANIMACION DE AGRANDAR CUANDO EL CURSOR ESTA ENCIMA*/
+}
+/* NAV-BAR */
+.header .nav-links {
+    list-style: none; /*SACA LOS PUNTOS DE LAS LISTAS*/
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.3s;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.header .nav-links li:hover {
+    transform: scale(1.1); /*ANIMACION DE AGRANDAR CUANDO EL CURSOR ESTA ENCIMA*/
+}
+
+.header .nav-links a {
+    font-size: 20px;
+    color: #576574;
+    text-decoration: none; /*SACA EL SUBRAYADO A LOS LINKS*/
+}
+
+.nav-links img {
+    height: 100%;
+}
