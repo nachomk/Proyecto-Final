@@ -38,6 +38,16 @@ header .logo {
     transform: scale(1.2); /*ANIMACION DE AGRANDAR CUANDO EL CURSOR ESTA ENCIMA*/
 }
 /* NAV-BAR */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 40px;
+    padding: 0px 40px;
+}
+
 .header .nav-links {
     list-style: none; /*SACA LOS PUNTOS DE LAS LISTAS*/
 }
@@ -78,9 +88,6 @@ nav ul {
     top: 20px;
 }
 
-/* .map-container {
-    width: 50%;
-} */
 
 .map-container path {
     fill: #F9B452;
