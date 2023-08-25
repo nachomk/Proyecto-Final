@@ -1,0 +1,13 @@
+[
+    {
+        "username": "nombre de usuario",
+        "password": "contraseña",
+        "user_information": {
+            "email": "correo",
+            "edad": 0,
+            "sexo": "",
+            "fecha_de_nacimiento": "",
+            "pais": ""
+        }
+    }
+]

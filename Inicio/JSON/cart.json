@@ -1,0 +1,10 @@
+[
+    {
+        "gift_card_name": "nombre de la gift-card",
+        "price": "$$$",
+        "brand": "---",
+        "stock": 0,
+        "discount": 35,
+        "province": "---"
+    }
+]
