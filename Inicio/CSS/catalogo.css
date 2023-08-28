@@ -23,7 +23,7 @@ h1 {
     height: 85px;
     padding: 50px 10%;
 }
-header .logo img {
+header .header-title img {
     height: 75px;
     width: auto;
     transition: all 0.3s;
@@ -34,7 +34,7 @@ header .logo {
     margin-right: auto;
 }
 
-.header .logo img:hover {
+.header .header-title img:hover {
     transform: scale(1.2); /*ANIMACION DE AGRANDAR CUANDO EL CURSOR ESTA ENCIMA*/
 }
 
