@@ -29,6 +29,10 @@ header .title-header img {
     transition: all 0.3s;
 }
 
+header .title-header h1 {
+    cursor: default;
+}
+
 header .logo {
     cursor: pointer;
     margin-right: auto;

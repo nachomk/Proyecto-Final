@@ -34,6 +34,10 @@ header .title-header {
     margin-right: auto;
 }
 
+header .title-header h1 {
+    cursor: default;
+}
+
 .header .title-header img:hover {
     transform: scale(1.2); /*ANIMACION DE AGRANDAR CUANDO EL CURSOR ESTA ENCIMA*/
 }
