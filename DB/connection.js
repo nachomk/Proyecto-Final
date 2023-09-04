@@ -4,8 +4,8 @@ const conectarDB = async ( req, res ) => {
 
 }
 
-const desconetcarDB = async ( req, res ) => {
+const desconectarDb = async ( req, res ) => {
 
 }
 
-module.exports = { conectarDB , desconetcarDB };
+module.exports = { conectarDB , desconectarDb };
