@@ -1,5 +1,4 @@
 const path = require("path");
-const { conectarDB , desconectarDb } = require("../../DB/connection");
 
 const getIndex = ( req, res) => {
     const file_path = path.join(__dirname , "../../Client/HTML/index.html");
@@ -30,4 +29,11 @@ const getProvince = ( req, res) => {
     res.sendFile(file_path);
 }
 
-module.exports = { getIndex , getCart , getCatalogue , getContact , getRegister , getProvince };
+module.exports = { 
+    getIndex , 
+    getCart , 
+    getCatalogue , 
+    getContact , 
+    getRegister , 
+    getProvince 
+};

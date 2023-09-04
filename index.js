@@ -4,14 +4,14 @@ const navController = require("./Server/Controllers/navigationController");
 const app = express();
 const PORT = 8080;
 
-app.arguments(express.json());
+app.use(express.json());
 
-app.get("/" , navController.getIndex);
-app.get("/" , navController.getCart);
-app.get("/" , navController.getCatalogue);
-app.get("/" , navController.getContact);
-app.get("/" , navController.getRegister);
-app.get("/" , navController.getProvince);
+app.get("/inicio" , navController.getIndex);
+app.get("/carrito" , navController.getCart);
+app.get("/catalogo" , navController.getCatalogue);
+app.get("/contacto" , navController.getContact);
+app.get("/registrarse" , navController.getRegister);
+app.get("/provincias" , navController.getProvince);
 
 app.listen(PORT , () => {
     console.log(`Servidor corriendo en el puerto ${PORT}`)
