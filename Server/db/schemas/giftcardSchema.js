@@ -8,6 +8,6 @@ const giftCardSchema = new Schema({
     categorie: String
 });
 
-const User = model("giftcard" , giftCardSchema);
+const giftCard = model("giftcard" , giftCardSchema);
 
-module.exports = User;
+module.exports = giftCard;

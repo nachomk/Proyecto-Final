@@ -1,10 +1,12 @@
 const { conectarDB , desconetcarDB } = require("../../Server/db/connection");
-const User = require("../db/schemas/productSchema");
+const giftCard = require("../db/schemas/giftcardSchema");
 
 const getAll = async ( req , res ) => {
     console.log("Nueva petición");
     await conectarDB();
-    const giftcard = await User.find({})
+    const giftcard = await giftCard.find({})
     await desconectarDB()
     res.json(giftcard);
 }
+
+module.exports = { getAll };
