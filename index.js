@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+const path = require("path");
 
 const navController = require("./Server/Controllers/navigationController");
 const giftcardController = require("./Server/Controllers/giftcardController");
@@ -7,6 +8,7 @@ const app = express();
 const PORT = process.env.PORT ||8080;
 
 app.use(express.json());
+app.use(express.static(path.join(__dirname , "./Client")))
 
 app.get("/inicio" , navController.getIndex);
 app.get("/carrito" , navController.getCart);

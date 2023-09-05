@@ -1,0 +1,32 @@
+[
+    {
+        "brand": "Apple",
+        "price": 1000,
+        "province": "tucuman",
+        "categorie": "celulares"
+    },
+    {
+        "brand": "Nike",
+        "price": 2000,
+        "province": "bsas",
+        "categorie": "deporte"
+    },
+    {
+        "brand": "Samsung",
+        "price": 11000,
+        "province": "caba",
+        "categorie": "tecnogologia"
+    },
+    {
+        "brand": "billabong",
+        "price": 1000,
+        "province": "la pampa",
+        "categorie": "ropa"
+    },
+    {
+        "brand": "lenovo",
+        "price": 5000,
+        "province": "jujuy",
+        "categorie": "tecnogologia"
+    }
+]
