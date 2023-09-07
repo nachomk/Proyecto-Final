@@ -93,6 +93,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 45px;
 }
 
 .card {
@@ -100,6 +101,7 @@ nav ul {
     height: 430px;
     box-shadow: 10px 5px 10px 3px #ccc;
     border-radius: 20px;
+    background-color: #fff;
 }
 
 .card img {
